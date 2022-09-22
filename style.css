@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+
+.pimg1{
+    background-image: url(./Image/image1.png);
+    min-height: 100%;
+    
+}
+
+.pimg2{
+    background-image: url(./Image/image2.png);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(./Image/image3.png);
+    min-height: 400px;
+}
+
+.pimg1 , .pimg2 , .pimg3{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.text-1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    
+    color: aliceblue;
+    font-size:40px ;
+    font-weight: bold;
+    
+}
+
+.parallax-text{
+    background-color: rgb(64, 64, 64);
+    padding: 20px;
+    letter-spacing: 10px;
+}
+
+.textarea{
+    padding: 40px;
+}
+.textarea h2{
+    
+    text-align: center;
+    align-content: center;
+    
+    font-size: 30px;
+}
+.textarea p {
+    text-align: center;
+    padding: 30px 50px 50px 50px;
+    font-size: 20px;
+}
+
+#section-two{
+    background-color: #666;
+    color: white;
+}
+
+.bottom-text{
+    background-color: #666;
+    color: white;
+    padding: 10px;
+    padding-right: 30px;
+    text-align: end;
+}
+
+
+
